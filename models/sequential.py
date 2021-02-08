@@ -1,5 +1,6 @@
 class Pipeline:
-    def __init__(self, layers=list()):
+    def __init__(self, layers=list(),verbose=None):
+        self._verbose = verbose
         self._layers = layers
 
     @property
@@ -13,6 +14,8 @@ class Pipeline:
     def run(self, dataset: list) -> list:
         result: list = []
         for raw in dataset:
+            if self._verbose is not None:
+                self._verbose(raw)
             temp = raw
             for layer in self._layers:
                 temp = layer.run(temp)

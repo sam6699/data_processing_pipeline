@@ -18,3 +18,20 @@ main3.py
 .gitignore
 
 
+rus_svet_pricat.py
+rus_svet_prodat.py
+main5.py
+db/universal_write.py
+processors/api_processors/rus_svet.py
+processors/excel_processors/cabelstroyservice_data_preparing.py
+processors/excel_processors/cablestar.py
+processors/excel_processors/minimaks_data_preparing.py
+processors/excel_processors/mkz_data_preparation.py
+processors/xml_processors/rus_svet/file_id.py
+processors/xml_processors/rus_svet/inProdatnotPricat.py
+processors/xml_processors/rus_svet/pricat.py
+processors/xml_processors/rus_svet/test_id.py
+processors/xml_processors/rus_svet/update copy.py
+processors/xml_processors/rus_svet/update.py
+processors/xml_processors/rus_svet/write_test.py
+processors/xml_processors/rus_svet/write.py
